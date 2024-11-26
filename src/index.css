@@ -11,3 +11,140 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+h1 {
+  text-align: center;
+  padding: 10px;
+  text-decoration: underline;
+  text-underline-offset: 10px;
+  text-decoration-thickness: 2px;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 3rem;
+  gap: 10px;
+
+}
+
+.main-box {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  padding: 3rem;
+  gap: 8rem;
+
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.cart-box2 {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 8px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 15px;
+  height: 100%;
+  position: relative;
+}
+
+.box-text {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: center;
+}
+
+.box-title {
+  font-size: large;
+  font-weight: 600;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: center;
+}
+
+.cart-box-text {
+  text-align: justify;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 10;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.cart-box-title {
+  font-size: large;
+  font-weight: 700;
+  text-align: start;
+}
+
+div.box-category {
+
+  position: absolute;
+  top: 10px;
+  left: 10px;
+
+}
+
+.btnGroup {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.todo-main-box {
+  display: grid;
+  grid-template-columns: 1fr 11fr;
+  padding-left: 30px;
+  padding-right: 30px;
+
+}
+
+.todos-box1 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border-bottom: 1px solid black;
+  border-right: 0;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.todos-box2 {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 8px;
+  border-bottom: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  height: 100%;
+  position: relative;
+}
+
+.btn-danger {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  font-size: 20px;
+  padding-top: 0px;
+
+}
+
