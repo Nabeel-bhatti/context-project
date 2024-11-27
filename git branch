@@ -1,0 +1,13 @@
+[1mdiff --git a/src/components/Products.jsx b/src/components/Products.jsx[m
+[1mindex 8c991e9..bd13219 100644[m
+[1m--- a/src/components/Products.jsx[m
+[1m+++ b/src/components/Products.jsx[m
+[36m@@ -24,8 +24,6 @@[m [mfunction Products() {[m
+     <div>[m
+       <h1>All Products</h1>[m
+       <h2>Data</h2>[m
+[31m-      <h3>Data</h3>[m
+[31m-[m
+       <div className="main">[m
+         {data.map((item) => ([m
+           <div className="box" key={item.id}>[m
