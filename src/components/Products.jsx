@@ -22,7 +22,7 @@ function Products() {
 
   return (
     <div>
-      <h1>All Products..</h1>
+      <h1>All Products</h1>
       <div className="main">
         {data.map((item) => (
           <div className="box" key={item.id}>
