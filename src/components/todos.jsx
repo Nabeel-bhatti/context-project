@@ -7,6 +7,7 @@ function Todos() {
   return (
     <div>
       <h1>Todos Page</h1>
+      <p>Todos Page</p>
       <div className="todos-main">
         {todosItems.map((item) => (
           <div className="todo-main-box" key={item.id}>
